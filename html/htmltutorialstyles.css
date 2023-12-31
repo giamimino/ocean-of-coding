@@ -1,0 +1,103 @@
+.ul {
+    list-style-type: none;
+    margin: o;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.li {
+    float: left;
+
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: rgba(241, 239, 82, 0.925);
+} 
+
+.li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: yellow;
+}
+
+body {
+    background-image: url(black-elegant-background-with-copy-space.jpg);
+}
+
+.ტექსტისლოკაცია {
+    margin-left: 70px;
+    color: rgb(134, 133, 133);
+}
+
+.ჰტმლსათაურად {
+    color: rgba(201, 200, 200, 0.795);
+    text-align: center;
+    font-size: 40px;
+}
+
+.ჩარჩო {
+    border: solid;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    border-color: rgb(28, 29, 29);
+    background-color: rgb(28, 29, 29);
+}
+
+.ჩარაჩოსლინკები {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.ჩარაჩოსლინკები:hover {
+    background-color: rgb(73, 73, 73);
+}
+
+.აქტიური {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: #04AA6D;
+}
+
+.შინარსიhtml {
+    text-align: right;
+}
+
+body {
+    overflow: auto; /* or any other value like scroll, auto, visible, etc. */
+    border-style: solid;
+}
+
+body {
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #565656;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2c2c2c;
+}

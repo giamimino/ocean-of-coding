@@ -1,0 +1,185 @@
+.ul {
+    list-style-type: none;
+    margin: o;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.li {
+    float: left;
+
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: rgba(241, 239, 82, 0.925);
+} 
+
+.li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: yellow;
+}
+
+body {
+    background-image: url(black-elegant-background-with-copy-space.jpg);
+}
+
+body {
+    overflow: auto; /* or any other value like scroll, auto, visible, etc. */
+    border-style: solid;
+}
+
+.ტექსტისლოკაცია {
+    margin-left: 70px;
+    color: rgb(134, 133, 133);
+}
+
+.ჰტმლსათაურად {
+    color: rgba(201, 200, 200, 0.795);
+    text-align: center;
+    font-size: 40px;
+}
+
+.ჩარჩო {
+    border: solid;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    border-color: rgb(28, 29, 29);
+    background-color: rgb(28, 29, 29);
+    overflow: auto;
+}
+
+.ჩარაჩოსლინკები {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.ჩარაჩოსლინკები:hover {
+    background-color: rgb(73, 73, 73);
+}
+
+.აქტიური {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: #04AA6D;
+}
+
+.შინარსიhtml {
+    text-align: right;
+}
+
+.ლოკაცია {
+    margin-left: 185px;
+    color: rgba(201, 200, 200, 0.795);
+    text-decoration: none;
+}
+
+.htmlძირითადისათაურად {
+    margin-left: 180px;
+    color: white;
+}
+
+
+.konteineri {
+    border-style: solid;
+    border-radius: 4px;
+    width: auto;
+    border-left: 150px;
+    color: rgba(236, 230, 144, 0.795);
+    display: inline-block;
+    margin-left: 180px;
+}
+
+.kontenti {
+    font-size: 20px;
+    color: rgba(201, 200, 200, 0.795);
+}
+
+.წითელი {
+    color: #ff9999;
+    text-decoration: none;
+}
+
+.ვარდისფერი {
+    color: #c5a5c5;
+    text-decoration: none;
+}
+
+.მწვანე {
+    color: #88c999;
+    text-decoration: none
+}
+
+.ბრჭყალები {
+    color: #88CCBB;
+    text-decoration: none
+}
+
+.text {
+    color: rgba(201, 200, 200, 0.795);
+    text-decoration: none;
+}
+
+.nacri {
+    color: #999999;
+    text-decoration: none;
+}
+.სათაური {
+    margin-left: 185px;
+    color: rgba(201, 200, 200, 0.795);
+    text-decoration: none;
+}
+
+hr {
+    border-color: #999;
+    visibility: 50%;
+}
+
+.img_notepad {
+    margin-left: 190px;
+}
+
+.ლინკი {
+    margin-left: 185px;
+    text-decoration: none;
+    color: rgba(100, 100, 100, 0.795);
+    border: 10px solid rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    text-align: center;
+}
+
+body {
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #565656;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2c2c2c;
+}
